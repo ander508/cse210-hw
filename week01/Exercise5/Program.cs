@@ -29,7 +29,7 @@ class Program
         int returnValue = SquareNumber(answer);
         // Console.WriteLine($"The Square of the number is: {returnValue}");
         
-        DisplayResult(result, answer);
+        DisplayResult(result, returnValue);
         
         
         
@@ -82,7 +82,7 @@ class Program
         //5. DisplayResult
         static void DisplayResult(string username, int x)
         {
-            Console.WriteLine($"{username}, the square of your number is {x * x}");
+            Console.WriteLine($"{username}, the square of your number is {x}");
         }
     }
     
