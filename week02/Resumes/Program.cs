@@ -19,15 +19,14 @@ class Program
         // person.ShowWesternnName();
         
         
-    //     Blind kitchen = new Blind();
-    //     kitchen._height = 60;
-    //     kitchen._width = 48;
-    //     kitchen._color = "White";
+        Blind kitchen = new Blind(60, 48,"White");
+        kitchen.ShowInfo();
+        Console.WriteLine($"Area of Kitchen is: {kitchen.GetArea()}");
         
-    //     Console.WriteLine($"Kitchen Height is: {kitchen._height}");
+        Console.WriteLine($"Kitchen Height is: {kitchen._height}");
         
-    //     double kitchenArea = kitchen.GetArea();
-    //     Console.WriteLine($"Area of Kitchen is {kitchenArea}");
+        double kitchenArea = kitchen.GetArea();
+        Console.WriteLine($"Area of Kitchen is {kitchenArea}");
         
         
     //     Blind livingRoom = new Blind();
