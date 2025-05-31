@@ -46,4 +46,8 @@ public class Fraction
         return (double)GetTop()/GetBottom();
         
     }
+    
+    
+    
+
 }
