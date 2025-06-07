@@ -13,7 +13,7 @@ class Program
         order1.AddProduct(new Product("Mouse", "MSE456", 25.0, 2));
 
         // Second order
-        Address address2 = new Address("456Mcc Road", "Calabar", "CAL", "Nigeria");
+        Address address2 = new Address("456 Mcc Road", "Calabar", "CAL", "Nigeria");
         Customer customer2 = new Customer("Anderson Offor", address2);
         Order order2 = new Order(customer2);
         order2.AddProduct(new Product("Camera", "CAM001", 500.0, 1));
