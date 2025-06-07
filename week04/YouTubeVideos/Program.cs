@@ -23,7 +23,7 @@ class Program
         var video3 = new Video("JavaScript for web", "Offor", 600);
         video3.AddComment(new Comment("Monday", "JavaScript is way to go"));
         video3.AddComment(new Comment("Paul", "JavaScript is difficult"));
-        // video3.AddComment(new Comment("Sunday", "Beautiful"));
+        video3.AddComment(new Comment("Sunday", "Beautiful"));
         // video3.AddComment(new Comment("Goloria", "JavaScript is fire"));
         
         
